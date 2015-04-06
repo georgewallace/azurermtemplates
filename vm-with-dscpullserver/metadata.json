@@ -1,0 +1,8 @@
+{
+  "TemplateName": "Create a Windows VM with DSC Pull Server using DSC extension",
+  "Description": "This template creates a Windows VM and sets up a DSC Pull Server using DSC extension",
+  "ShortDescription": "This template creates a VM with DSC Pull Server using DSC extension",
+  "GithubUsername": "georgewallace",
+  "DateUpdated": "2015-04-06"
+}
+

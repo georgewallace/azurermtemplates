@@ -1,0 +1,58 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "newStorageAccountName": {
+      "value": "gwstore1"
+    },
+    "location": {
+      "value": "West US"
+    },
+    "dnsName": {
+      "value": "gwdns1"
+    },
+    "publicIPAddressName": {
+      "value": "gwIP"
+    },
+    "publicIPAddressType": {
+      "value": "Dynamic"
+    },
+    "vmName": {
+      "value": "gwvm"
+    },
+    "vmSize": {
+      "value": "Small"
+    },
+    "adminUserName": {
+      "value": "gwallace"
+    },
+    "adminPassword": {
+      "value": "abc_123!"
+    },
+    "virtualNetworkName": {
+      "value": "gwvnet"
+    },
+    "subscriptionId": {
+      "value": ""
+    },
+    "nicName": {
+      "value": "gwNic"
+    },
+    "vmExtensionName": {
+      "value": "dscExtension"
+    },
+    "modulesUrl": {
+      "value": ""
+    },
+    "sasToken": {
+      "value": ""
+    },
+    "configurationFunction": {
+      "value": "DSCPullServer.ps1\Sample_xDscWebService"
+    },
+    "MachineName": {
+      "value": ""
+    }
+  }
+}
+
